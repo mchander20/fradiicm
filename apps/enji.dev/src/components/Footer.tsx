@@ -13,12 +13,12 @@ import dayjs from '@/utils/dayjs';
 function LastUpdate() {
   return (
     <a
-      href="https://github.com/enjidev/enji.dev"
+      href="https://instagram.com/fradiicm"
       target="_blank"
       rel="noreferrer nofollow"
       className={clsx('hover:underline')}
     >
-      <span>see the recent update on GitHub</span>
+      <span>Made with ❤ by FradiiCM</span>
     </a>
   );
 }
@@ -112,13 +112,15 @@ function FooterDescription() {
         About Me
       </div>
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        I&apos;m Enji, a <strong>front-end developer</strong> who loves
-        intuitive, clean and modern UI design.
+        Chander Mohan A Entrepreneur and Full-Stack Developer
+        specializing in Web and App development
+        with React Native, Next.js, and Node.js, combined with expertise in
+        Digital Marketing to create impactful, user-friendly experiences.
       </p>
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
-            href="https://twitter.com/enjidev"
+            href="https://instagram.com/fradiicm"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -130,7 +132,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://github.com/enjidev"
+            href="https://github.com/mchander20"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -140,7 +142,7 @@ function FooterDescription() {
             <GitHubIcon className={clsx('h-5 w-5')} />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://figma.com/@enjidev"
             target="_blank"
@@ -151,7 +153,7 @@ function FooterDescription() {
           >
             <FigmaIcon className={clsx('h-5 w-5')} />
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
@@ -245,7 +247,7 @@ function Footer() {
           )}
         >
           <div className={clsx('font-semibold')}>
-            &copy; {dayjs().format('YYYY')}, Enji Kusnadi
+            &copy; {dayjs().format('YYYY')}, FradiiCM
           </div>
           <div className={clsx('text-slate-500', 'dark:text-slate-400')}>
             <LastUpdate />

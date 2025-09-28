@@ -24,6 +24,7 @@ function ButtonContactMe() {
   return (
     <Link
       href="/work/contact"
+      style={{ backgroundColor: '#bf0000' }}
       className={clsx('button button--solid min-w-[128px]', 'md:button--big')}
     >
       Get in Touch

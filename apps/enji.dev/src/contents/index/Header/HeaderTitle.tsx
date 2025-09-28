@@ -69,10 +69,10 @@ function HeaderTitle() {
           transition={{ delay: 0.2 }}
         >
           I&apos;m{' '}
-          <strong className={clsx('text-accent-600', 'dark:text-accent-500')}>
-            Enji
+          <strong style={{ color: '#bf0000' }} className={clsx('text-accent-600', 'dark:text-accent-500')}>
+            FradiiCM
           </strong>{' '}
-          Kusnadi,{' '}
+          {/* Kusnadi,{' '} */}
         </m.span>
         <m.h1
           className={clsx(
@@ -84,17 +84,58 @@ function HeaderTitle() {
           animate={animation.show}
           transition={{ delay: 0.3 }}
         >
-          <span className={clsx('lowercase')}>A</span>{' '}
           <strong
             className={clsx(
-              'font-bold lowercase text-slate-700',
+              'font-bold text-slate-700',
               'dark:text-slate-300'
             )}
           >
-            Front-End Developer
+            Chander Mohan
           </strong>{' '}
-          who loves intuitive,{' '}
-          <span className={clsx('block')}>clean and modern UI design.</span>
+          <span className={clsx('lowercase')}>A</span>{' '}
+          <strong
+            className={clsx(
+              'font-bold text-slate-700',
+              'dark:text-slate-300'
+            )}
+          >
+            Entrepreneur
+          </strong>{' '}
+          <span className={clsx('lowercase')}>and</span>{' '}
+
+          <strong
+            className={clsx(
+              'font-bold  text-slate-700',
+              'dark:text-slate-300'
+            )}
+          >
+            Full-Stack Developer
+          </strong>{' '}
+          <span className={clsx('lowercase','block')}>specializing in<strong
+            className={clsx(
+              'font-bold text-slate-700',
+              'dark:text-slate-300'
+            )}
+          >
+            {' '}Web and App development
+          </strong>{' '}</span>{' '}
+
+          
+          <span className={clsx('lowercase')}>with React Native, Next.js, and Node.js, combined with expertise in</span>{' '}
+          <span className={clsx('block'
+            )}>
+          <strong
+            className={clsx(
+              'font-bold text-slate-700',
+              'dark:text-slate-300'
+            )}
+          >
+            Digital Marketing
+          </strong>{' '}
+          <span className={clsx('lowercase')}>to create impactful, user-friendly experiences.</span>{' '}</span>
+
+          {/* who loves intuitive,{' '} */}
+          {/* <span className={clsx('block')}>clean and modern UI design.</span> */}
         </m.h1>
       </span>
     </div>
