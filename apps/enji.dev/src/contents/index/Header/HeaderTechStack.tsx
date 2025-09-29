@@ -4,7 +4,6 @@ import { m } from 'framer-motion';
 import {
   FigmaIcon,
   FramerMotionIcon,
-  MongoIcon,
   NextJsIcon,
   ReactIcon,
   TailwindCssIcon,
@@ -51,20 +50,15 @@ function HeaderTechStack() {
           </div>
         </m.li>
         <m.li variants={animation}>
-          <div className={clsx('transition duration-200 hover:text-[#03632e]')}>
-            <MongoIcon className={clsx('h-6 w-6')} />
-          </div>
-        </m.li>
-        <m.li variants={animation}>
           <div className={clsx('transition duration-200 hover:text-[#06B6D4]')}>
             <TailwindCssIcon className={clsx('h-6 w-6')} />
           </div>
         </m.li>
-        {/* <m.li variants={animation}>
+        <m.li variants={animation}>
           <div className={clsx('transition duration-200 hover:text-[#0055FF]')}>
             <FramerMotionIcon className={clsx('h-6 w-6')} />
           </div>
-        </m.li> */}
+        </m.li>
         <m.li variants={animation}>
           <div
             className={clsx(
@@ -82,11 +76,11 @@ function HeaderTechStack() {
             <VSCodeIcon className={clsx('h-6 w-6')} />
           </div>
         </m.li>
-        {/* <m.li variants={animation}>
+        <m.li variants={animation}>
           <div className={clsx('transition duration-200 hover:text-[#F24E1E]')}>
             <FigmaIcon className={clsx('h-6 w-6')} />
           </div>
-        </m.li> */}
+        </m.li>
       </m.ul>
     </div>
   );
