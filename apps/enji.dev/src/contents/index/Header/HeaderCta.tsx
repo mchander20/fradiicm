@@ -33,11 +33,10 @@ function ButtonContactMe() {
 }
 
 function ButtonResume() {
-  const openResume = () => {
-    const pdfUrl = encodeURIComponent('https://example.com/sample-resume.pdf'); // Replace with your PDF URL
-    const googleViewerUrl = `https://drive.google.com/viewerng/viewer?embedded=true&url=${pdfUrl}`;
-    window.open(googleViewerUrl, '_blank');
-  };
+const openResume = () => {
+  const pdfUrl = 'https://fradiicm.vercel.app/assets/images/Chander_Mohan_Resume_f_.pdf'; // PDF URL directly
+  window.open(pdfUrl, '_blank');
+};
 
   return (
     <button

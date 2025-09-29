@@ -2,6 +2,7 @@
 
 import clsx from 'clsx';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function BookSection() {
   return (
@@ -49,16 +50,18 @@ function BookSection() {
         >
           Discover practical strategies, mindset shifts, and real-world stories to achieve true financial freedom. This book guides you from budgeting basics to building wealth step-by-step.
         </p>
-        <button
-          type="button"  // Add this line
-          style={{ backgroundColor: "#bf0000" }}
-          className={clsx(
-            'inline-block rounded-md bg-amber-500 px-5 py-2 text-white font-semibold transition hover:bg-amber-600',
-            'dark:bg-amber-700 dark:hover:bg-amber-800'
-          )}
-        >
-          Buy Now
-        </button>
+        <Link style={{marginTop:10}} href="https://notionpress.com/in/read/financial-lift-off/">
+          <button
+            type="button"  // Add this line
+            style={{ backgroundColor: "#bf0000" }}
+            className={clsx(
+              'inline-block rounded-md bg-amber-500 px-5 py-2 text-white font-semibold transition hover:bg-amber-600',
+              'dark:bg-amber-700 dark:hover:bg-amber-800'
+            )}
+          >
+            Buy Now
+          </button>
+        </Link>
       </div>
     </section>
   );
