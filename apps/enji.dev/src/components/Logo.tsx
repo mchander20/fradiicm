@@ -22,8 +22,8 @@ function Logo({ active = false }: LogoProps) {
         <span
   className={clsx(
     'inline-block text-xs font-semibold rounded-full select-none',
-    'sm:text-sm',
-    [active ? 'text-white' : 'text-accent-600 dark:text-accent-400']
+    'sm:text-sm', 'text-white'
+    // [active ? 'text-white' : 'text-accent-600 dark:text-accent-400']
   )}
 >
   FC

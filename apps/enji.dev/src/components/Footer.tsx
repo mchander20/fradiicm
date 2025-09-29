@@ -163,7 +163,7 @@ function Footer() {
   return (
     <footer
       className={clsx(
-        'background-grid background-grid--fade-in border-divider-light mt-24 pt-16 text-sm text-slate-900',
+        'background-grid background-grid--fade-in border-divider-light mt-10 pt-16 text-sm text-slate-900',
         'dark:border-divider-dark dark:text-slate-200'
       )}
     >
@@ -181,23 +181,23 @@ function Footer() {
             >
               <div className={clsx('flex', 'sm:gap-16')}>
                 <FooterGroup
-                  title="Work"
+                  title="Useful Links"
                   links={[
-                    { title: 'Contact', href: '/work/contact' },
                     { title: 'Experience', href: '/work/experience' },
-                    {
-                      title: 'Services',
-                      href: '/work/services',
-                      label: 'soon',
-                    },
-                    {
-                      title: 'Skills and Tools',
-                      href: '/work/skills-and-tools',
-                    },
-                    { title: 'Studio', href: '/work/studio' },
+                    { title: 'Contact', href: '/work/contact' },
+                    // {
+                    //   title: 'Services',
+                    //   href: '/work/services',
+                    //   label: 'soon',
+                    // },
+                    // {
+                    //   title: 'Skills and Tools',
+                    //   href: '/work/skills-and-tools',
+                    // },
+                    // { title: 'Studio', href: '/work/studio' },
                   ]}
                 />
-                <FooterGroup
+                {/* <FooterGroup
                   title="Learn"
                   links={[
                     {
@@ -214,9 +214,9 @@ function Footer() {
                       label: 'new',
                     },
                   ]}
-                />
+                /> */}
               </div>
-              <div className={clsx('flex', 'sm:gap-16')}>
+              {/* <div className={clsx('flex', 'sm:gap-16')}>
                 <FooterGroup
                   title="This Site"
                   links={[
@@ -236,7 +236,7 @@ function Footer() {
                     },
                   ]}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

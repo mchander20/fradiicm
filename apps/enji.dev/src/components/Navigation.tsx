@@ -48,6 +48,12 @@ function Navbar() {
             <NavLogo href="/" title="Home" />
             <ul className={clsx('flex items-center', 'md:gap-1')}>
               <li>
+                <NavLink title="Experience" href="/work/experience" />
+              </li>
+              <li>
+                <NavLink title="Contact" href="/work/contact" />
+              </li>
+              {/* <li>
                 <NavLink title="Projects" href="/projects" />
               </li>
               <li>
@@ -61,7 +67,7 @@ function Navbar() {
               </li>
               <li className={clsx('hidden lg:block')} data-accent="blue">
                 <NavLinkExpanded title="Work" items={workLinks} />
-              </li>
+              </li> */}
             </ul>
           </nav>
           <ul className={clsx('flex items-center')}>

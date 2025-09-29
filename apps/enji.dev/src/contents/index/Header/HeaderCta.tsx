@@ -33,16 +33,21 @@ function ButtonContactMe() {
 }
 
 function ButtonResume() {
+  const openResume = () => {
+    const pdfUrl = encodeURIComponent('https://example.com/sample-resume.pdf'); // Replace with your PDF URL
+    const googleViewerUrl = `https://drive.google.com/viewerng/viewer?embedded=true&url=${pdfUrl}`;
+    window.open(googleViewerUrl, '_blank');
+  };
+
   return (
-    <a
-      target="_blank"
-      rel="noreferrer nofollow"
-      href="https://www.figma.com/community/file/1176377524040948926"
-      className={clsx('button button--ghost px-2', 'md:button--big md:px-2')}
+    <button
+      onClick={openResume}
+      className={clsx('button button--ghost px-2', 'md:button--big md:px-2', 'flex items-center gap-2')}
+      type="button"
     >
       <DocumentIcon className={clsx('h-5 w-5')} />
       RESUME
-    </a>
+    </button>
   );
 }
 

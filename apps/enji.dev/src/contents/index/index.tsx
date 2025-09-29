@@ -8,6 +8,8 @@ import FeaturedCard from '@/contents/index/FeaturedCard';
 import Header from '@/contents/index/Header';
 import PrettyOptimized from '@/contents/index/PrettyOptimized';
 import Quote from '@/contents/index/Quote';
+import BookSection from './BookSection';
+import MobileProfileSection from './MobileProfileSection';
 
 function FeaturedCardSection() {
   return (
@@ -75,12 +77,19 @@ function IndexContents() {
     <>
       <Header />
       <div className={clsx('hidden', 'lg:-mt-16 lg:mb-24 lg:block')}>
-        <FeaturedCardSection />
+        {/* <FeaturedCardSection /> */}
       </div>
+      <section className={clsx('mb-2', 'lg:mb-24')}>
+        <MobileProfileSection />
+      </section>
       <div className={clsx('-mt-12 mb-12', 'md:mb-24 md:mt-0')}>
         <QuoteSection />
       </div>
-      <section className={clsx('mb-12', 'lg:mb-24')}>
+      <section className={clsx('mb-2', 'lg:mb-24')}>
+        <BookSection />
+      </section>
+      
+      {/* <section className={clsx('mb-12', 'lg:mb-24')}>
         <CleanIntuitive />
       </section>
       <section className={clsx('mb-12', 'lg:mb-24')}>
@@ -88,7 +97,7 @@ function IndexContents() {
       </section>
       <section className={clsx('mb-12', 'lg:mb-24')}>
         <PrettyOptimized />
-      </section>
+      </section> */}
     </>
   );
 }
