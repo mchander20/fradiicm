@@ -47,8 +47,7 @@ function Quote() {
                 'font-extrabold text-slate-600',
                 'dark:text-slate-300'
               )}
-            >
-            </strong>
+            />
           </span>
           <span
             className={clsx(
@@ -73,20 +72,20 @@ function Quote() {
               )}
             />
             <strong
-            className={clsx(
-              'relative font-extrabold text-slate-600',
-              'dark:text-slate-300'
-            )}
-          >
-            <span
               className={clsx(
-                'absolute -left-0.5 bottom-0 right-0 top-1 z-[-1] rounded-md bg-slate-100 px-1',
-                'lg:-left-1.5 lg:-right-0.5 lg:bottom-0 lg:top-2',
-                'dark:bg-slate-800'
+                'relative font-extrabold text-slate-600',
+                'dark:text-slate-300'
               )}
-            />
-            passion
-          </strong>
+            >
+              <span
+                className={clsx(
+                  'absolute -left-0.5 bottom-0 right-0 top-1 z-[-1] rounded-md bg-slate-100 px-1',
+                  'lg:-left-1.5 lg:-right-0.5 lg:bottom-0 lg:top-2',
+                  'dark:bg-slate-800'
+                )}
+              />
+              passion
+            </strong>
           </strong>
           {' '}meets{' '}
           <strong

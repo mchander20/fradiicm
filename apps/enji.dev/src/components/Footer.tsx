@@ -3,7 +3,6 @@ import Link from 'next/link';
 
 import {
   ExternalLink,
-  FigmaIcon,
   GitHubIcon,
   TwitterIcon,
 } from '@/components/Icons';

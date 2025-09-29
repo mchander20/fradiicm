@@ -8,8 +8,9 @@ import useGlobal from '@/hooks/useGlobal';
 function NavIconQuickAccess() {
   const { setQuickAccessOpen } = useGlobal();
 
-  return (
-    <></>
+  return null;
+  
+  
     // <button
     //   type="button"
     //   className={clsx(
@@ -36,7 +37,6 @@ function NavIconQuickAccess() {
     //     <Kbd>Q</Kbd>
     //   </div>
     // </button>
-  );
 }
 
 export default NavIconQuickAccess;

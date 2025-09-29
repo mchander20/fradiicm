@@ -50,7 +50,8 @@ function BookSection() {
           Discover practical strategies, mindset shifts, and real-world stories to achieve true financial freedom. This book guides you from budgeting basics to building wealth step-by-step.
         </p>
         <button
-        style={{backgroundColor:"#bf0000"}}
+          type="button"  // Add this line
+          style={{ backgroundColor: "#bf0000" }}
           className={clsx(
             'inline-block rounded-md bg-amber-500 px-5 py-2 text-white font-semibold transition hover:bg-amber-600',
             'dark:bg-amber-700 dark:hover:bg-amber-800'
