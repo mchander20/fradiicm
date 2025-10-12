@@ -34,7 +34,7 @@ function ButtonContactMe() {
 
 function ButtonResume() {
 const openResume = () => {
-  const pdfUrl = 'https://fradiicm.vercel.app/assets/images/Chander_Mohan_Resume_f_.pdf'; // PDF URL directly
+  const pdfUrl = 'https://fradiicm.vercel.app/assets/images/chander_mohan_resume_revised.pdf'; // PDF URL directly
   window.open(pdfUrl, '_blank');
 };
 
