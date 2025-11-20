@@ -49,6 +49,9 @@ function Navbar() {
                 <NavLink title="Experience" href="/work/experience" />
               </li>
               <li>
+                <NavLink title="Services" href="/work/services" />
+              </li>
+              <li>
                 <NavLink title="Contact" href="/work/contact" />
               </li>
               {/* <li>

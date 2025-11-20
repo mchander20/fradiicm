@@ -10,6 +10,7 @@ import PrettyOptimized from '@/contents/index/PrettyOptimized';
 import Quote from '@/contents/index/Quote';
 import BookSection from './BookSection';
 import MobileProfileSection from './MobileProfileSection';
+import ServicesSection from './ServicesSection';
 
 function FeaturedCardSection() {
   return (
@@ -87,6 +88,9 @@ function IndexContents() {
       </div>
       <section className={clsx('mb-2', 'lg:mb-24')}>
         <BookSection />
+      </section>
+      <section className={clsx('mb-2', 'lg:mb-24')}>
+        <ServicesSection />
       </section>
       
       {/* <section className={clsx('mb-12', 'lg:mb-24')}>
