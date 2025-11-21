@@ -183,6 +183,7 @@ function Footer() {
                   title="Useful Links"
                   links={[
                     { title: 'Experience', href: '/work/experience' },
+                    { title: 'Services', href: '/work/services' },
                     { title: 'Contact', href: '/work/contact' },
                     // {
                     //   title: 'Services',
